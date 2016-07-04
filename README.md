@@ -92,7 +92,7 @@ $panel.find('.panel-content').html( panelContent({
 }));
 ```
 
-And template HTML will look like:
+Template HTML will look like:
 ```html
 <!-- Status template -->
 <script id="tmpl-migration-content" type="text/html">
@@ -104,20 +104,4 @@ And template HTML will look like:
         {{{data.content}}}
     </div>
 </script>
-```
-
-
-
-# Installation
-
-Clone this repo and run this command:
-
-```bash
-npm install
-```
-
-Once complete, run the app:
-
-```bash
-npm app
 ```
